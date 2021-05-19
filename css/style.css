@@ -1,0 +1,81 @@
+table, th {
+    /*border: 1px solid white;*/
+    border-spacing: 0 42px;
+    
+    color:red;
+    font-size: 30px;
+    
+
+
+  }
+
+  body {
+    background-image: url(../images/bg.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 950px
+ }
+
+
+  td {
+
+    width: 170px;
+    height:60px;
+    
+    color: white;
+    text-align: left;
+    font-size: 30px;
+
+
+  }
+
+
+
+  select , textarea {
+
+    font-size: 30px;
+  }
+
+  input {
+
+    border: 0;
+    padding : 5 px;
+    border : none;
+    border-bottom: 2px  solid;
+    background:none;
+    color: white;
+    outline: 0;
+    
+    font-size: 30px;
+    
+    
+  }
+
+  .tbody::before{
+    content: "";
+    margin:10px;
+  }
+
+  .tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+
+#btn {
+    background-color: red ; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    
+  }
