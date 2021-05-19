@@ -10,7 +10,7 @@ table, th {
   }
 
   body {
-    background-image: url("https://user-images.githubusercontent.com/79693547/118785543-947d6c00-b8ae-11eb-87b0-2da2ee1c5d31.jpg");
+    background-image: url('https://user-images.githubusercontent.com/79693547/118785543-947d6c00-b8ae-11eb-87b0-2da2ee1c5d31.jpg');
      background-repeat: no-repeat;
      background-size: 100% 950px
  }
