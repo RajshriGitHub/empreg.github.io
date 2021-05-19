@@ -1,1 +1,116 @@
 
+<!DOCTYPE html>
+<html>
+    <title>Welcome </title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    
+    <marquee width="100%" > W  E L C O M E</marquee>
+    
+</html>
+<body>
+    <table style="width:100%";  align="center"; >
+        <tr>
+            <th  colspan="6" style="text-align: center">
+                <h2> Employee Registration </h2> </th>
+            </th>
+        </tr>
+        <tr>
+                <td>First Name <span class="tab"></span> </td>
+                <td> <input type:"text" ></td>
+                <td>Middle Name <span class="tab"></span> </td>
+                <td> <input type:"text" ></td>
+                <td>Last Name <span class="tab"></span> </td>
+                <td> <input type:"text" /></td>
+         </tr>
+        <tr>
+                <td>Mobile Number <span class="tab"></span></td>
+                <td>+91 <input type="tel"  onkeypress="return isNumberKey(event)"></td>
+    
+                <td> Gender </td>
+                <td>
+                 <input type="radio" value="Male" > Male
+                 <span class="tab"></span>
+                <input type="radio" value="Female"> Female
+                </td>
+    
+                <td>Date of Birth  </td>
+                 <td>   <input type="date">  </td>
+                
+        </tr>
+
+      
+        <tr>
+
+            <td >Email </td>
+            <td><input type="text" "></td>
+
+            <td>Aadhar No  </td>
+            <td> <input type="text"  onkeypress="return isNumberKey(event)" name="txtFName1" id="txt">
+            </td>
+            <td>Pan No </td>
+             <td>   <input type="text" ></td>
+          
+        </tr>
+
+
+        <tr>
+
+          
+
+                <td>Blood Group </td>
+                <td>
+                    <select name="mydropdown">
+                    <option value="Default">Default</option>
+                    <option value="A+">A+</option>
+                    <option value="B+">B+</option>
+                    <option value="AB+">C+</option>
+                    <option value="O+">O+</option>
+                    </select></td>
+            <td>Job Location</td>
+            <td ><select name="mydropdown">
+<option value="Default">Default</option>
+<option value="Chennai">Chennai</option>
+<option value="Bangalore">Bangalore</option>
+<option value="Chennai">Pune</option>
+<option value="Bangalore">Mysore</option>
+<option value="Chennai">Chandigarh</option>
+
+</select></td>
+
+
+        
+
+        
+            <td>Designation</td>
+            <td>
+                <select name="mydropdown">
+<option value="Default">Default</option>
+<option value="Systems Engineer">Systems Engineer</option>
+<option value="Senior Systems Engineer">Senior Systems Engineer</option>
+<option value="Technology Analyst">Technology Analyst</option>
+<option value="Technology Lead">Technology Lead</option>
+<option value="Project Manager">Project Manager</option>
+
+
+</select></td>
+
+        </tr>
+
+        <tr>
+            <td> Local Address </td>
+            <td >  <textarea rows="4" maxlen="200" name="S2" cols="20" id="txt"></textarea></td>
+            <td > Permant Address </td>
+            <td> <textarea rows="4" maxlen="200" name="S2" cols="20" id="txt"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="6">
+                <p align="center">
+                    <input type="submit" value="  Submit" id="btn" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="  Reset All   "  id="btn"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
